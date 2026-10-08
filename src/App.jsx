@@ -100,7 +100,7 @@ export default function App() {
   const [currentStep, setCurrentStep] = useState('');
   const [error, setError] = useState(null);
   const [lastUserMessage, setLastUserMessage] = useState('');
-  const [useLiveApi, setUseLiveApi] = useState(false);
+  const [useLiveApi, setUseLiveApi] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   // Sidebar Sessions Management

@@ -31,6 +31,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Optionally redirect
             // window.location.href = '/dashboard.html';
+            
+            // For MVP preview: hide login page, show React app
+            document.querySelector('.container').style.display = 'none';
+            document.getElementById('root').style.display = 'block';
         }, 1500);
     });
 
@@ -67,6 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
             localStorage.setItem('uniassist_user', JSON.stringify({ email, name }));
             
             // Optional: window.location.href = '/dashboard.html';
+            
+            // For MVP preview: hide login page, show React app
+            document.querySelector('.container').style.display = 'none';
+            document.getElementById('root').style.display = 'block';
         });
     });
 });
